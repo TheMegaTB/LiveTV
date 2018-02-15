@@ -13,6 +13,15 @@
 		3000F1CE2033857C0037793F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3000F1CD2033857C0037793F /* Assets.xcassets */; };
 		3000F1D92033857C0037793F /* LiveTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000F1D82033857C0037793F /* LiveTVTests.swift */; };
 		3000F1E42033857C0037793F /* LiveTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000F1E32033857C0037793F /* LiveTVUITests.swift */; };
+		304CAF27203389970063CB68 /* StreamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CAF26203389970063CB68 /* StreamsViewController.swift */; };
+		304CAF2920338BD10063CB68 /* StreamsCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CAF2820338BD10063CB68 /* StreamsCategoryView.swift */; };
+		304CAF2B20338E1E0063CB68 /* StreamsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CAF2A20338E1E0063CB68 /* StreamsManager.swift */; };
+		304CAF2D203390F40063CB68 /* StreamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CAF2C203390F40063CB68 /* StreamCell.swift */; };
+		304CAF2F203391C30063CB68 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CAF2E203391C30063CB68 /* Stream.swift */; };
+		304CAF312033A6170063CB68 /* Streams.plist in Resources */ = {isa = PBXBuildFile; fileRef = 304CAF302033A6170063CB68 /* Streams.plist */; };
+		304CAF332033A8B80063CB68 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CAF322033A8B80063CB68 /* Category.swift */; };
+		304CAF35203445150063CB68 /* StreamDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CAF34203445150063CB68 /* StreamDetailViewController.swift */; };
+		304CAF3B2034AFFF0063CB68 /* ProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CAF3A2034AFFF0063CB68 /* ProgramViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +54,15 @@
 		3000F1DF2033857C0037793F /* LiveTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3000F1E32033857C0037793F /* LiveTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTVUITests.swift; sourceTree = "<group>"; };
 		3000F1E52033857C0037793F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304CAF26203389970063CB68 /* StreamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamsViewController.swift; sourceTree = "<group>"; };
+		304CAF2820338BD10063CB68 /* StreamsCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamsCategoryView.swift; sourceTree = "<group>"; };
+		304CAF2A20338E1E0063CB68 /* StreamsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamsManager.swift; sourceTree = "<group>"; };
+		304CAF2C203390F40063CB68 /* StreamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamCell.swift; sourceTree = "<group>"; };
+		304CAF2E203391C30063CB68 /* Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		304CAF302033A6170063CB68 /* Streams.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Streams.plist; sourceTree = "<group>"; };
+		304CAF322033A8B80063CB68 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		304CAF34203445150063CB68 /* StreamDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamDetailViewController.swift; sourceTree = "<group>"; };
+		304CAF3A2034AFFF0063CB68 /* ProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +113,10 @@
 		3000F1C52033857C0037793F /* LiveTV */ = {
 			isa = PBXGroup;
 			children = (
+				304CAF362034AECE0063CB68 /* Streams */,
+				304CAF372034AEE80063CB68 /* StreamsGrid */,
+				304CAF392034AFBF0063CB68 /* ProgramList */,
+				304CAF382034AF050063CB68 /* StreamPlayer */,
 				3000F1C62033857C0037793F /* AppDelegate.swift */,
 				3000F1C82033857C0037793F /* ViewController.swift */,
 				3000F1CA2033857C0037793F /* Main.storyboard */,
@@ -120,6 +142,43 @@
 				3000F1E52033857C0037793F /* Info.plist */,
 			);
 			path = LiveTVUITests;
+			sourceTree = "<group>";
+		};
+		304CAF362034AECE0063CB68 /* Streams */ = {
+			isa = PBXGroup;
+			children = (
+				304CAF302033A6170063CB68 /* Streams.plist */,
+				304CAF2A20338E1E0063CB68 /* StreamsManager.swift */,
+				304CAF2E203391C30063CB68 /* Stream.swift */,
+				304CAF322033A8B80063CB68 /* Category.swift */,
+			);
+			path = Streams;
+			sourceTree = "<group>";
+		};
+		304CAF372034AEE80063CB68 /* StreamsGrid */ = {
+			isa = PBXGroup;
+			children = (
+				304CAF26203389970063CB68 /* StreamsViewController.swift */,
+				304CAF2820338BD10063CB68 /* StreamsCategoryView.swift */,
+				304CAF2C203390F40063CB68 /* StreamCell.swift */,
+			);
+			path = StreamsGrid;
+			sourceTree = "<group>";
+		};
+		304CAF382034AF050063CB68 /* StreamPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				304CAF34203445150063CB68 /* StreamDetailViewController.swift */,
+			);
+			path = StreamPlayer;
+			sourceTree = "<group>";
+		};
+		304CAF392034AFBF0063CB68 /* ProgramList */ = {
+			isa = PBXGroup;
+			children = (
+				304CAF3A2034AFFF0063CB68 /* ProgramViewController.swift */,
+			);
+			path = ProgramList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +250,11 @@
 					3000F1C22033857C0037793F = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes.appletvos = {
+								enabled = 1;
+							};
+						};
 					};
 					3000F1D32033857C0037793F = {
 						CreatedOnToolsVersion = 9.2;
@@ -230,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3000F1CE2033857C0037793F /* Assets.xcassets in Resources */,
+				304CAF312033A6170063CB68 /* Streams.plist in Resources */,
 				3000F1CC2033857C0037793F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,8 +320,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				304CAF2920338BD10063CB68 /* StreamsCategoryView.swift in Sources */,
+				304CAF2D203390F40063CB68 /* StreamCell.swift in Sources */,
 				3000F1C92033857C0037793F /* ViewController.swift in Sources */,
+				304CAF27203389970063CB68 /* StreamsViewController.swift in Sources */,
+				304CAF2B20338E1E0063CB68 /* StreamsManager.swift in Sources */,
+				304CAF35203445150063CB68 /* StreamDetailViewController.swift in Sources */,
 				3000F1C72033857C0037793F /* AppDelegate.swift in Sources */,
+				304CAF3B2034AFFF0063CB68 /* ProgramViewController.swift in Sources */,
+				304CAF2F203391C30063CB68 /* Stream.swift in Sources */,
+				304CAF332033A8B80063CB68 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

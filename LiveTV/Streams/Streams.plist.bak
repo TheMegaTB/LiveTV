@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Entertain</string>
+		<key>Streams</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Das Erste</string>
+				<key>Icon</key>
+				<string>ARD</string>
+				<key>Regions</key>
+				<array>
+					<dict>
+						<key>Name</key>
+						<string>Überregional</string>
+						<key>URL-SD</key>
+						<string>rtp://@239.35.10.4:10000</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>ZDF</string>
+				<key>Icon</key>
+				<string>ZDF</string>
+				<key>Regions</key>
+				<array>
+					<dict>
+						<key>Name</key>
+						<string>Überregional</string>
+						<key>URL-SD</key>
+						<string>rtp://@239.35.10.5:10000</string>
+						<key>EPG-ID</key>
+						<string>hd.zdf.de</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>RTL</string>
+				<key>Icon</key>
+				<string>RTL</string>
+				<key>Regions</key>
+				<array>
+					<dict>
+						<key>Name</key>
+						<string>Überregional</string>
+						<key>URL-SD</key>
+						<string>rtp://@239.35.20.10:10000</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Sat.1</string>
+				<key>Icon</key>
+				<string>Sat.1</string>
+				<key>Regions</key>
+				<array>
+					<dict>
+						<key>Name</key>
+						<string>Überregional</string>
+						<key>URL-SD</key>
+						<string>rtp://@239.35.20.20:10000</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>ProSieben</string>
+				<key>Icon</key>
+				<string>ProSieben</string>
+				<key>Regions</key>
+				<array>
+					<dict>
+						<key>Name</key>
+						<string>Überregional</string>
+						<key>URL-SD</key>
+						<string>rtp://@239.35.20.21:10000</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>VOX</string>
+				<key>Icon</key>
+				<string>VOX</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.11:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Kabel 1</string>
+				<key>Icon</key>
+				<string>Kabel 1</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.38:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>RTL II</string>
+				<key>Icon</key>
+				<string>RTL II</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.22:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Super RTL</string>
+				<key>Icon</key>
+				<string>Super RTL</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.39:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>KiKA</string>
+				<key>Icon</key>
+				<string>KiKA</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.19:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>3sat</string>
+				<key>Icon</key>
+				<string>3sat</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.6:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>n-tv</string>
+				<key>Icon</key>
+				<string>n-tv</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.47:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>PHOENIX</string>
+				<key>Icon</key>
+				<string>PHOENIX</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.22:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>zdf_neo</string>
+				<key>Icon</key>
+				<string>zdf_neo</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.27:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>BR Süd</string>
+				<key>Icon</key>
+				<string>BR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.7:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>hr</string>
+				<key>Icon</key>
+				<string>hr</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.8:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>MDR Sachsen</string>
+				<key>Icon</key>
+				<string>mdr</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.9:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>NDR</string>
+				<key>Icon</key>
+				<string>NDR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.10:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Radio Bremen TV</string>
+				<key>Icon</key>
+				<string>Radio Bremen TV</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.12:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>rbb Berlin</string>
+				<key>Icon</key>
+				<string>rbb</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.14:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>SR</string>
+				<key>Icon</key>
+				<string>SR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.15:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>SWR BW</string>
+				<key>Icon</key>
+				<string>SWR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.16:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>SWR RP</string>
+				<key>Icon</key>
+				<string>SWR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.17:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>WDR</string>
+				<key>Icon</key>
+				<string>WDR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.18:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>ARTE</string>
+				<key>Icon</key>
+				<string>ARTE</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.20:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Einsfestival</string>
+				<key>Icon</key>
+				<string>Einsfestival</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.21:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>zdf.kultur</string>
+				<key>Icon</key>
+				<string>zdf.kultur</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.23:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>sixx</string>
+				<key>Icon</key>
+				<string>sixx</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.9:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>RTLNITRO</string>
+				<key>Icon</key>
+				<string>RTLNITRO</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.59:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>RTLplus</string>
+				<key>Icon</key>
+				<string>RTLplus</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.57:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Sat.1 Gold</string>
+				<key>Icon</key>
+				<string>Sat.1 Gold</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.24:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>ProSieben MAXX</string>
+				<key>Icon</key>
+				<string>ProSieben MAXX</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.33:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>ARD-alpha</string>
+				<key>Icon</key>
+				<string>ARD-alpha</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.24:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Deutsche Welle</string>
+				<key>Icon</key>
+				<string>Deutsche Welle</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.44:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Tagesschau24</string>
+				<key>Icon</key>
+				<string>tagesschau24</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.25:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>EinsPlus</string>
+				<key>Icon</key>
+				<string>EinsPlus</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.26:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>ZDFinfo</string>
+				<key>Icon</key>
+				<string>ZDFinfo</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.28:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>BR Nord</string>
+				<key>Icon</key>
+				<string>BR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.13:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>MDR S-Anhalt</string>
+				<key>Icon</key>
+				<string>mdr</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.29:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>MDR Thüringen</string>
+				<key>Icon</key>
+				<string>mdr</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.30:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>NDR Hamburg</string>
+				<key>Icon</key>
+				<string>NDR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.31:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>NDR Meckl.-Vorpommern</string>
+				<key>Icon</key>
+				<string>NDR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.32:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>NDR Schleswig-Holstein</string>
+				<key>Icon</key>
+				<string>NDR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.33:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>rbb Brandenburg</string>
+				<key>Icon</key>
+				<string>rbb</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.34:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>RTL NRW</string>
+				<key>Icon</key>
+				<string>RTL</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.5:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>RTL HB NDS</string>
+				<key>Icon</key>
+				<string>RTL</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.6:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Sat.1 Bayern</string>
+				<key>Icon</key>
+				<string>Sat.1</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.8:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Sat.1 HH SH</string>
+				<key>Icon</key>
+				<string>Sat.1</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.12:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Sat.1 NDS Bremen</string>
+				<key>Icon</key>
+				<string>Sat.1</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.13:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Sat.1 NRW</string>
+				<key>Icon</key>
+				<string>Sat.1</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.14:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Sat.1 RhlPf Hessen</string>
+				<key>Icon</key>
+				<string>Sat.1</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.15:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>WDR Aachen</string>
+				<key>Icon</key>
+				<string>WDR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.35:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>WDR Bielefeld</string>
+				<key>Icon</key>
+				<string>WDR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.36:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>WDR Bonn</string>
+				<key>Icon</key>
+				<string>WDR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.37:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>WDR Dortmund</string>
+				<key>Icon</key>
+				<string>WDR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.38:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>WDR Duisburg</string>
+				<key>Icon</key>
+				<string>WDR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.39:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>WDR Düsseldorf</string>
+				<key>Icon</key>
+				<string>WDR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.40:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>WDR Essen</string>
+				<key>Icon</key>
+				<string>WDR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.41:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>WDR Münster</string>
+				<key>Icon</key>
+				<string>WDR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.42:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>WDR Siegen</string>
+				<key>Icon</key>
+				<string>WDR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.43:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>WDR Wuppertal</string>
+				<key>Icon</key>
+				<string>WDR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.44:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>RTL HH SH</string>
+				<key>Icon</key>
+				<string>RTL</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.44:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>RTL Hessen</string>
+				<key>Icon</key>
+				<string>RTL</string>
+				<key>URL</key>
+				<string>rtp://@239.35.20.64:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Das Erste HD</string>
+				<key>Icon</key>
+				<string>ARD</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.1:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>ZDF HD</string>
+				<key>Icon</key>
+				<string>ZDF</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.2:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>KiKA HD</string>
+				<key>Icon</key>
+				<string>KiKA</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.11:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>3sat HD</string>
+				<key>Icon</key>
+				<string>3sat</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.47:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>PHOENIX HD</string>
+				<key>Icon</key>
+				<string>PHOENIX</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.48:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>zdf_neo HD</string>
+				<key>Icon</key>
+				<string>zdf_neo</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.55:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>BR Süd HD</string>
+				<key>Icon</key>
+				<string>BR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.49:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>hr HD</string>
+				<key>Icon</key>
+				<string>hr</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.60:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>MDR HD</string>
+				<key>Icon</key>
+				<string>mdr</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.61:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>NDR HD</string>
+				<key>Icon</key>
+				<string>NDR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.50:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>rbb Berlin HD</string>
+				<key>Icon</key>
+				<string>rbb</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.62:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>SWR BW HD</string>
+				<key>Icon</key>
+				<string>SWR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.51:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>SWR RP HD</string>
+				<key>Icon</key>
+				<string>SWR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.52:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>WDR HD</string>
+				<key>Icon</key>
+				<string>WDR</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.53:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>ARTE HD</string>
+				<key>Icon</key>
+				<string>ARTE</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.3:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Einsfestival HD</string>
+				<key>Icon</key>
+				<string>Einsfestival</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.58:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>zdf.kultur HD</string>
+				<key>Icon</key>
+				<string>zdf.kultur</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.54:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>tagesschau24 HD</string>
+				<key>Icon</key>
+				<string>tagesschau24</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.63:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>EinsPlus HD</string>
+				<key>Icon</key>
+				<string>EinsPlus</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.59:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>ZDFinfo HD</string>
+				<key>Icon</key>
+				<string>ZDFinfo</string>
+				<key>URL</key>
+				<string>rtp://@239.35.10.56:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>allgäu.tv</string>
+				<key>Icon</key>
+				<string>allgäu.tv</string>
+				<key>URL</key>
+				<string>rtp://@239.35.50.53:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Donau TV</string>
+				<key>Icon</key>
+				<string>Donau TV</string>
+				<key>URL</key>
+				<string>rtp://@239.35.50.23:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>intv</string>
+				<key>Icon</key>
+				<string>intv</string>
+				<key>URL</key>
+				<string>rtp://@239.35.50.1:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>ISAR TV</string>
+				<key>Icon</key>
+				<string>ISAR TV</string>
+				<key>URL</key>
+				<string>rtp://@239.35.50.42:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>main.tv</string>
+				<key>Icon</key>
+				<string>main.tv</string>
+				<key>URL</key>
+				<string>rtp://@239.35.50.49:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Oberpfalz TV</string>
+				<key>Icon</key>
+				<string>Oberpfalz TV</string>
+				<key>URL</key>
+				<string>rtp://@239.35.50.50:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>RFO</string>
+				<key>Icon</key>
+				<string>RFO</string>
+				<key>URL</key>
+				<string>rtp://@239.35.50.51:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>TRP1</string>
+				<key>Icon</key>
+				<string>TRP1</string>
+				<key>URL</key>
+				<string>rtp://@239.35.50.52:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>TV Oberfranken</string>
+				<key>Icon</key>
+				<string>TV Oberfranken</string>
+				<key>URL</key>
+				<string>rtp://@239.35.50.54:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>TV touring Schweinft</string>
+				<key>Icon</key>
+				<string>TV touring</string>
+				<key>URL</key>
+				<string>rtp://@239.35.50.55:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>TV touring Würzburg</string>
+				<key>Icon</key>
+				<string>TV touring</string>
+				<key>URL</key>
+				<string>rtp://@239.35.50.56:10000</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>TVA Ostbayern</string>
+				<key>Icon</key>
+				<string>TVA Ostbayern</string>
+				<key>URL</key>
+				<string>rtp://@239.35.50.57:10000</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Examples</string>
+		<key>Streams</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>ARD</string>
+				<key>Icon</key>
+				<string>ARD</string>
+				<key>URL</key>
+				<string>https://devimages-cdn.apple.com/samplecode/avfoundationMedia/AVFoundationQueuePlayer_HLS2/master.m3u8</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>ZDF</string>
+				<key>Icon</key>
+				<string>ZDF</string>
+				<key>URL</key>
+				<string>https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>BBC</string>
+				<key>Icon</key>
+				<string>BBC</string>
+				<key>URL</key>
+				<string>https://video-dev.github.io/streams/x36xhzz/x36xhzz.m3u8</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>KiKA</string>
+				<key>Icon</key>
+				<string>KiKA</string>
+				<key>URL</key>
+				<string>https://video-dev.github.io/streams/x36xhzz/x36xhzz.m3u8</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
